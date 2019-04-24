@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="state_names">
+        <item>DESTROYED</item>
+        <item>INITIALIZED</item>
+        <item>CREATED</item>
+        <item>STARTED</item>
+        <item>RESUMED</item>
+    </string-array>
+    <string-array name="event_names">
+        <item>ON_CREATE</item>
+        <item>ON_START</item>
+        <item>ON_RESUME</item>
+        <item>ON_PAUSE</item>
+        <item>ON_STOP</item>
+        <item>ON_DESTROY</item>
+        <item>ON_ANY</item>
+    </string-array>
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LifecycleComponentTest</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_lifecycle_registry_test">LifecycleRegistryTest</string>
+    <string name="destroyed_state_label">DESTROYED</string>
+    <string name="initialized_state_button">INITIALIZED</string>
+    <string name="created_state_label">CREATED</string>
+    <string name="started_state_label">STARTED</string>
+    <string name="mark_state_label">markState</string>
+    <string name="handleLifecycleButton">handleLifecycleEvent</string>
+</resources>

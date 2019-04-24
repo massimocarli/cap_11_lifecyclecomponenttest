@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              app:layout_behavior="@string/appbar_scrolling_view_behavior"
+              tools:showIn="@layout/activity_lifecycle_registry_test"
+              tools:context=".LifecycleRegistryGameActivity">
+
+    <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/stateSpinner" android:entries="@array/state_names"
+            tools:layout_editor_absoluteY="207dp" tools:layout_editor_absoluteX="8dp"/>
+    <Button
+            android:text="@string/mark_state_label"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:id="@+id/markStateButton"
+            tools:layout_editor_absoluteY="239dp" tools:layout_editor_absoluteX="278dp"/>
+    <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/eventSpinner" android:entries="@array/event_names"
+            tools:layout_editor_absoluteY="479dp" tools:layout_editor_absoluteX="8dp"/>
+    <Button
+            android:text="@string/handleLifecycleButton"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/handleLifecycleButton"
+            tools:layout_editor_absoluteY="431dp" tools:layout_editor_absoluteX="193dp"/>
+</LinearLayout>
