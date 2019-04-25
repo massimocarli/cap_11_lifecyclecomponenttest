@@ -41,7 +41,7 @@ class LifecycleRegistryGameActivity : AppCompatActivity(), LifecycleObserver {
     }
 
     @OnLifecycleEvent(Lifecycle.Event.ON_ANY)
-    private fun showEvent() {
+    fun showEvent() {
         Toast.makeText(this, "Event: ${lifecycleRegistry.currentState.name}", Toast.LENGTH_SHORT).show()
     }
 }
